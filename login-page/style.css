@@ -1,0 +1,85 @@
+body{
+    background-color: #86CB92;
+    color: #0B5351;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+    font-family: 'Poppins';
+}
+
+.container{
+    width: 30vw;
+    height: 50vh;
+    border-radius: 10px;
+    background-color:#e7f5e9;
+    padding: 2em;
+    text-align: center;
+}
+
+.log-in{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.log-in label {
+    display: block;
+    justify-self: flex-start;
+}
+
+.log-in  input, label{
+    margin-bottom: 0.5em;
+}
+
+.log-in input{
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    outline: none;
+}
+
+.log-in input:focus{
+    border: solid 2px #df9a57;
+}
+
+.log-in input:last-child{
+    border: none;
+    height: 35px;
+    width: 70px;
+    font-weight: 600;
+    background-color: #260F26;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    color: white;
+}
+
+.log-in input:last-child:hover{
+    cursor: pointer;
+    background-color: white;
+    color:#260F26 ;
+}
+
+
+
+.forgoten p,a{
+    display: inline;
+    text-align: start;
+    font-size: 0.6em;
+}
+
+.forgoten a:link, .forgoten a:visited{
+    text-decoration: none;
+    color: #df9a57;
+}
+
+.forgoten a:hover, .forgoten a:active {
+    color: #efcdab;
+    text-decoration: underline;
+}
