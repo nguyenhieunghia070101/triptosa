@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     background-color: #86CB92;
     color: #0B5351;
@@ -14,42 +16,37 @@ body{
 
 .container{
     width: 30vw;
-    height: 50vh;
+    height: auto;
     border-radius: 10px;
     background-color:#e7f5e9;
-    padding: 2em;
+    padding: 1em;
     text-align: center;
+    margin-bottom: 1em;
 }
 
-.log-in{
+.form{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
 }
 
-.log-in label {
-    display: block;
-    justify-self: flex-start;
-}
-
-.log-in  input, label{
+.form input{
     margin-bottom: 0.5em;
-}
-
-.log-in input{
     border: none;
     height: 30px;
     border-radius: 5px;
     font-family: 'Poppins';
     outline: none;
+    padding: 0 3px;
 }
 
-.log-in input:focus{
+.form input:focus{
+    box-sizing: border-box;
     border: solid 2px #df9a57;
 }
 
-.log-in input:last-child{
+.form input:last-child{
     border: none;
     height: 35px;
     width: 70px;
@@ -60,15 +57,19 @@ body{
     color: white;
 }
 
-.log-in input:last-child:hover{
+.form input:last-child:hover{
     cursor: pointer;
     background-color: white;
     color:#260F26 ;
 }
 
+.forgoten p, a{
+    display: inline;
+    text-align: start;
+    font-size: 0.6em;
+}
 
-
-.forgoten p,a{
+.forgoten a{
     display: inline;
     text-align: start;
     font-size: 0.6em;
@@ -82,4 +83,24 @@ body{
 .forgoten a:hover, .forgoten a:active {
     color: #efcdab;
     text-decoration: underline;
+}
+
+.sign-up p, a{
+    display: inline;
+    text-align: start;
+    font-size: 0.9em;
+}
+
+.sign-up a:link, .sign-up a:visited{
+    text-decoration: none;
+    color: #df9a57;
+}
+
+.sign-up a:hover, .sign-up a:active {
+    color: #efcdab;
+    text-decoration: underline;
+}
+
+h3{
+    margin: 0.5em 0;
 }
