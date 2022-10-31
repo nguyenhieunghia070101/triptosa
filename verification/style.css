@@ -63,7 +63,7 @@ body{
     color:#260F26 ;
 }
 
-.forgoten p, a{
+.forgoten p, .forgoten a{
     display: inline;
     text-align: start;
     font-size: 0.6em;
@@ -85,7 +85,7 @@ body{
     text-decoration: underline;
 }
 
-.sign-up p, a{
+.sign-up p, .sign-up a{
     display: inline;
     text-align: start;
     font-size: 0.9em;
@@ -103,4 +103,14 @@ body{
 
 h3{
     margin: 0.5em 0;
+}
+
+.reseted_link:link, .reseted_link:visited{
+    text-decoration: none;
+    color: #df9a57;
+}
+
+.reseted_link:hover, .reseted_link:active {
+    color: #efcdab;
+    text-decoration: underline;
 }
